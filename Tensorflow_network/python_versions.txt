@@ -1,0 +1,28 @@
+ pyrocleaner/1.2
+ python/2.3-fake
+ python/2.4-fake
+ python/2.6.4
+ python/2.7.3(default)
+ python/2.7.11
+ python/3.2.2
+ python/3.4.1
+ python/3.4.2
+ python/3.5.4
+ python/active-2.7.8
+ python/cx1
+
+
+ anaconda/2.1.0
+anaconda/2.2.0
+anaconda/2.3.0
+anaconda/2.4.1(default)
+anaconda/2.4.1.1
+anaconda/2.4.2
+anaconda/4.3.1
+anaconda2/personal
+anaconda3/2.4.1
+anaconda3/4.1.1
+anaconda3/4.3.1(default)
+anaconda3/personal
+
+/home/dwt17/MSc_project/neural_sum_1/1st_test

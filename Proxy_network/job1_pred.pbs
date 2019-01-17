@@ -1,0 +1,15 @@
+#PBS -lwalltime=48:00:00
+#PBS -lselect=1:ncpus=1:mem=8gb:ngpus=1
+
+module load anaconda3/personal
+
+mkdir model
+mkdir Output
+mkdir Output/Obj
+mkdir Output/Text
+
+cp $WORK/Msc_project/neural_sum/exp1/try1_gpu/model/* $TMPDIR/model/
+
+python3 $HOME/MSc_project/neural_sum_1/code/Tensorflow_network/run_cx1_predict.py $WORK/Msc_project/neural_sum/exp1/data/ $TMPDIR/ > output_prediction.txt
+
+cp -r * $WORK/Msc_project/neural_sum/exp1/prediction/

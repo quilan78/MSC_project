@@ -1,0 +1,21 @@
+<tf.Variable 'embedding/embedding_encoder:0' shape=(50000, 64) dtype=float32_ref>
+<tf.Variable 'encoder/bidirectional_rnn/fw/forward_cell/kernel:0' shape=(192, 512) dtype=float32_ref>
+<tf.Variable 'encoder/bidirectional_rnn/fw/forward_cell/bias:0' shape=(512,) dtype=float32_ref>
+<tf.Variable 'encoder/bidirectional_rnn/bw/backward_cell/kernel:0' shape=(192, 512) dtype=float32_ref>
+<tf.Variable 'encoder/bidirectional_rnn/bw/backward_cell/bias:0' shape=(512,) dtype=float32_ref>
+<tf.Variable 'reduce_transfered_states/W_c:0' shape=(256, 128) dtype=float32_ref>
+<tf.Variable 'reduce_transfered_states/W_h:0' shape=(256, 128) dtype=float32_ref>
+<tf.Variable 'reduce_transfered_states/b_c:0' shape=(128,) dtype=float32_ref>
+<tf.Variable 'reduce_transfered_states/b_h:0' shape=(128,) dtype=float32_ref>
+<tf.Variable 'decoder/memory_layer/kernel:0' shape=(256, 128) dtype=float32_ref>
+<tf.Variable 'decoder/decoder_training/decoder/attention_wrapper/cell/kernel:0' shape=(320, 512) dtype=float32_ref>
+<tf.Variable 'decoder/decoder_training/decoder/attention_wrapper/cell/bias:0' shape=(512,) dtype=float32_ref>
+<tf.Variable 'decoder/decoder_training/decoder/attention_wrapper/bahdanau_attention/query_layer/kernel:0' shape=(128, 128) dtype=float32_ref>
+<tf.Variable 'decoder/decoder_training/decoder/attention_wrapper/bahdanau_attention/attention_v:0' shape=(128,) dtype=float32_ref>
+<tf.Variable 'decoder/decoder_training/decoder/attention_wrapper/attention_layer/kernel:0' shape=(384, 128) dtype=float32_ref>
+<tf.Variable 'decoder/decoder_training/decoder/dense/kernel:0' shape=(128, 50000) dtype=float32_ref>
+<tf.Variable 'decoder/decoder_training/decoder/dense/bias:0' shape=(50000,) dtype=float32_ref>
+<tf.Variable 'decoder/decoder_prediction_beam/memory_layer/kernel:0' shape=(256, 128) dtype=float32_ref>
+<tf.Variable 'decoder/decoder_prediction_beam/decoder/beam_attention_wrapper/bahdanau_attention/query_layer/kernel:0' shape=(128, 128) dtype=float32_ref>
+<tf.Variable 'decoder/decoder_prediction_beam/decoder/beam_attention_wrapper/bahdanau_attention/attention_v:0' shape=(128,) dtype=float32_ref>
+<tf.Variable 'decoder/decoder_prediction_beam/decoder/beam_attention_wrapper/attention_layer/kernel:0' shape=(384, 128) dtype=float32_ref>

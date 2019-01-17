@@ -1,0 +1,18 @@
+#PBS -lwalltime=72:00:00
+#PBS -lselect=1:ncpus=1:mem=16gb
+
+module load anaconda3/personal
+
+mkdir model
+mkdir Output
+mkdir Output/Obj
+mkdir Output/Text
+
+
+cp $WORK/Msc_project/neural_sum/exp1/LRP/model/* $TMPDIR/model/
+cp $WORK/Msc_project/neural_sum/exp1/prediction/Output/Obj/* $TMPDIR/Output/Obj/
+
+
+python3 $HOME/MSc_project/neural_sum_1/code/Proxy_network/runner.py $WORK/Msc_project/neural_sum/exp1/data/ $TMPDIR/ $WORK/Msc_project/neural_sum/exp1/LRP/ > output_lrp.txt
+
+cp -r * $WORK/Msc_project/neural_sum/exp1/LRP/
